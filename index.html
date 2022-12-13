@@ -1,0 +1,77 @@
+<html>
+<head>
+    <title>Home</title>
+    <link rel="icon" type="image/x-icon" href="D:/VSCode/pictures/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="slide.js"></script>
+    <script src="reveal.js"></script>
+<style>
+
+body, html {
+    margin: 0;
+    font-family: 'Arial Bold';
+    scroll-behavior: smooth;
+    user-select: none;
+  /* overflow: hidden */
+}
+
+</style>
+</head>
+<body onload="showSlides(1)"></body>
+
+
+
+<!-- Top navigation bar and background -->
+    <header class="container fadein">
+        <div class="bgimg">
+            <div class="bar">
+                <img src="https://i.imgur.com/KgWLCJ9.png" width="50" height="50" alt="logo"/>
+                <a href="./././parks.html">parks</a>
+                <a href="./././animals.html">animals</a>
+                <a href="./././volunteering.html">volunteering</a>
+                <a href="./././about.html">about us</a>
+                <a href="./././contact.html">contact</a>
+            </div>
+        <div class="display-middle center">
+            <h1><span style="font-size:125px; color:white; letter-spacing: -7px; filter:drop-shadow(0 5px 2px rgba(0, 0, 0, 0.5))">NATIONAL PARK</span></h1>
+            <span style="font-size:110px; color:rgb(191, 255, 185); letter-spacing: 5px; filter:drop-shadow(0 5px 2px rgba(0, 0, 0, 0.5))">service</span>
+
+            <div style="filter:drop-shadow(0 5px 2px rgba(0, 0, 0, 0.5))" class="bottom-center floating">
+                <a href="#news">v NEWS</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="slideshow-container">
+    <h2 class="titles tag reveal" id="news">
+        NEWS
+    </h2>
+<div class="mySlides opacity">
+    <p class="paragraphs">Park will begin implementing temporary, 
+        single-lane road closures at several locations this week for the installation of permanent roadside protection measures at busy park destinations to eliminate unsafe,
+        damaging roadside parking.
+    </p>
+</div>
+
+<div class="mySlides opacity">
+    <p class="paragraphs">Yosemite National Park is initiating a public comment period for a Visitor Access Management Plan today. 
+        The park will seek input on how visitors can plan future visits to one of the most popular sites in the National Park System.
+    </p>
+</div>
+
+    <div class="mySlides opacity">
+    <p class="paragraphs">
+        The National Park Service will have five entrance fee-free days in 2023 that provide free admittance to all national parks for everyone. 
+        On significant days of commemoration or celebration, and throughout the year.
+    </p>
+</div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<form action="#">
+    <button class="btn"><i class="fa fa-home"></i></button>
+ </form>

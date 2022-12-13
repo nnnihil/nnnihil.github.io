@@ -1,0 +1,85 @@
+<html>
+<head>
+    <title>Parks</title>
+    <link rel="icon" type="image/x-icon" href="D:/VSCode/pictures/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="slide.js"></script>
+    <script src="reveal.js"></script>
+    <script src="middleclick.js"></script>
+  <script>
+    function openTab(url){
+    var url;
+  window.open(url, '_blank');}
+  </script>
+<style>
+
+body, html {
+    margin: 0;
+    font-family: 'Arial Bold';
+    scroll-behavior: smooth;
+    user-select: none;
+  /* overflow: hidden */
+}
+
+</style>
+</head>
+<body onload="showSlides(1)"></body> 
+  
+    <header class="container fadein">
+            <div class="bar">
+                <img src="https://i.imgur.com/KgWLCJ9.png" width="50" height="50" alt="logo"/>   
+                <a href="./././parks.html">parks</a>
+                <a href="./././animals.html">animals</a>
+                <a href="./././volunteering.html">volunteering</a>
+                <a href="./././about.html">about us</a>
+                <a href="./././contact.html">contact</a>
+            </div>
+    </div>
+    </header>
+
+    <div class="gallery">
+        <div onmousedown="WhichButton(event, url='https:/en.wikipedia.org/wiki/Zion_National_Park')" onclick="openTab('https:/en.wikipedia.org/wiki/Zion_National_Park')" class="gallery-item"> 
+        <img src="https://i.imgur.com/ouB9m8k.jpg" alt="park" />
+          <div class="gallery-item-caption">
+            <h2>Zion National Park</h2>
+            <p>Utah, USA</p>
+          </div>
+        </div>
+
+        <div onmousedown="WhichButton(event, url='https:/en.wikipedia.org/wiki/Banff_National_Park')" onclick="openTab('https:/en.wikipedia.org/wiki/Banff_National_Park')" class="gallery-item"> 
+            <img src="https://i.imgur.com/zDjCtYu.jpg" alt="park" />
+              <div class="gallery-item-caption">
+                <h2>Banff National Park</h2>
+                <p>Alberta, Canada</p>
+              </div>
+            </div>
+
+            <div onmousedown="WhichButton(event, url='https:/en.wikipedia.org/wiki/Yoho_National_Park')" onclick="openTab('https:/en.wikipedia.org/wiki/Yoho_National_Park')" class="gallery-item"> 
+                <img src="https://i.imgur.com/I6MffzC.jpg" alt="park" />
+                  <div class="gallery-item-caption">
+                    <h2>Yoho National Park</h2>
+                    <p>British Colombia, Canada</p>
+                  </div>
+                </div>
+
+                <div onmousedown="WhichButton(event, url='https:/en.wikipedia.org/wiki/Yosemite_National_Park')" onclick="openTab('https:/en.wikipedia.org/wiki/Yosemite_National_Park')" class="gallery-item"> 
+                    <img src="https://i.imgur.com/NRM4spS.jpg" alt="park" />
+                      <div class="gallery-item-caption">
+                        <h2>Yosemite National Park</h2>
+                        <p>California, USA</p>
+                      </div>
+                    </div>
+
+    <!-- <div class="gallery">
+        <div class="gallery-item">
+   <img src="https://i.imgur.com/ouB9m8k.jpg"/>
+
+    </div>
+</div> -->
+
+
+<form action="./././index.html">
+    <button class="btn"><i class="fa fa-home"></i></button>
+</form>

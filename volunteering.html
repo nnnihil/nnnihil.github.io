@@ -1,0 +1,88 @@
+<html>
+<head>
+    <title>Volunteering</title>
+    <link rel="icon" type="image/x-icon" href="D:/VSCode/pictures/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="slide.js"></script>
+    <script src="reveal.js"></script>
+<style>
+
+body, html {
+    margin: 0;
+    font-family: 'Arial Bold';
+    scroll-behavior: smooth;
+    user-select: none;
+  /* overflow: hidden */
+}
+
+</style>
+</head>
+<body onload="showSlides(1)"></body>
+
+    <header class="container fadein">
+    <div class="coverimage-volunteering">
+        <div class="bar">
+            <img src="https://i.imgur.com/KgWLCJ9.png" width="50" height="50" alt="logo"/>   
+            <a href="./././parks.html">parks</a>
+            <a href="./././animals.html">animals</a>
+            <a href="./././volunteering.html">volunteering</a>
+            <a href="./././about.html">about us</a>
+            <a href="./././contact.html">contact</a>
+        </div>
+       
+        <div class="center">
+            <h1><span style="font-size:125px; color:white; letter-spacing: -7px; filter:drop-shadow(0 5px 2px rgba(0, 0, 0, 0.5))">VOLUNTEERING</span></h1>   
+    </div>
+</div>
+
+<div class="container">
+    <div class="rectangle">
+        <a href="#description">why volunteer?</a>
+        <a href="#form">form application</a>
+</div>
+</header>
+
+<section1>
+    <div class="slideshow-container padding-top" id="description">
+        <h1 style="font-size: 80px" class="tag reveal">
+            HOW VOLUNTEERING HELPS
+        </h1>
+    <div class="opacity">
+        <p class="paragraphs reveal">
+          The National Park Service preserves the natural and cultural resources and values of the National Park System for the enjoyment, 
+          education, and inspiration of and future generations. 
+          You can make a difference by bringing your unique experience, background, and perspective to our work.
+        </p>
+    </div>
+    </div>
+    </section>
+  
+  <form action="./././index.html">
+    <button class="btn"><i class="fa fa-home"></i></button>
+</form>
+
+
+<section2>
+    <div style="padding-bottom:5%; padding-top:10%;" class="container-form reveal" id="form">
+            <form action="./././volunteering.html#form" id="contact" action="" method="get">
+              <h3>Volunteering Application</h3>
+              <h4>Enter your contact information below</h4>
+              <fieldset>
+                <input placeholder="Your name" type="text" tabindex="1" required>
+              </fieldset>
+              <fieldset>
+                <input placeholder="Your Email Address" type="email" tabindex="2" required>
+              </fieldset>
+              <fieldset>
+                <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3">
+              </fieldset>
+              <fieldset>
+                <textarea placeholder="Why would you like to volunteer?" type="question" tabindex="4"></textarea>
+              </fieldset>
+              <fieldset>
+                <button name="submit" type="submit" id="contact-submit">Submit</button>
+              </fieldset>
+            </form>
+    </section2>
