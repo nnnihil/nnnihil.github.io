@@ -82,11 +82,10 @@
 }
 
 .bar a {
-	float: left;
 	color: #ffffff;
 	text-align: center;
 	z-index: 1;
-	padding: 1.8% 4.2%;
+	padding: 1.2% 4.2%;
 	text-decoration: none;
 	font-size: 17px;
 	font-family: 'Arial Bold';
